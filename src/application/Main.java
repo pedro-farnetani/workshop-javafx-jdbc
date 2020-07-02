@@ -11,7 +11,7 @@ import java.io.IOException;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml"));
             ScrollPane scrollPane = loader.load();
